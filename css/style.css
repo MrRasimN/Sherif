@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script&family=Festive&family=Hurricane&family=Irish+Grover&family=Lobster&family=Playfair+Display:ital,wght@1,600&family=Stint+Ultra+Condensed&family=Tangerine&display=swap');
+
+body{
+
+font-family: 'Playfair Display', serif;
+
+color: rgb(254,203,0);
+background-color: rgb(47,44,41);
+background: url(../images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.titlu{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    color: #dddddd;
+}
+.meniu{
+    position: fixed;
+}
+.meniu a{
+    display: block;
+    font-size: 32px;
+    color: #dddddd;
+    text-decoration: none;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.container{
+ padding: 25px 50px;
+}
+
+.club{
+    background-color:rgba(36,37,38,0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 25px;
+    padding: 20px;
+}
+.descriere{
+    font-size: 24px;
+    margin-right: 50px;
+}
+.club img{
+    width: 450px;
+    height: 200px;
+}
+
+.text{
+    font-size: 24px;
+    background-color:rgba(36,37,38,0.8);
+    margin-top: 25px;
+    padding: 20px;
+    margin-left: 150px;
+}
